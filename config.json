@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "stations": {
+    "Rajiv Chowk": {
+      "gates": ["Gate 3: D Block", "Gate 7: Inner Circle"],
+      "coachTip": "Coach 3 is nearest to the exit"
+    }
+  }
+}

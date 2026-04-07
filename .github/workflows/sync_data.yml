@@ -2,7 +2,7 @@ name: Sync DMRC Data
 
 on:
   schedule:
-    - cron: '0 3 * * 1' # Runs every Monday at 3 AM
+    - cron: '0 3 * * 1'
   workflow_dispatch:
 
 jobs:
@@ -15,6 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Pull latest changes
+        run: git pull origin main --rebase
+
       - name: Process Data
         run: python3 process_data.py
 
@@ -22,7 +25,6 @@ jobs:
         run: |
           git config --global user.name "MetroGuard Bot"
           git config --global user.email "bot@metroguard.com"
-          git pull origin main --rebase
           git add config.json
-          git commit -m "Auto-update DMRC station data" || echo "No changes to commit"
+          git diff --cached --quiet || git commit -m "Auto-update DMRC station data"
           git push origin main

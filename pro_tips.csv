@@ -1,0 +1,11 @@
+station_name,gates,coach_tip,platform_info
+Rajiv Chowk,"Gate 3: D Block, Gate 7: Inner Circle",Coach 3 is nearest,Platform 1: Yellow
+Hauz Khas,"Gate 1: IIT Delhi, Gate 3: Aurobindo",Coach 1 nearest to interchange,Platform 2: Pink
+Kashmere Gate,"Gate 5: ISBT, Gate 7: Mori Gate",Coach 4 for Yellow/Red,Platform 3: Red
+Anand Vihar,"Gate 1: ISBT, Gate 3: Railway Station",Coach 2 nearest,Platform 1: Blue
+Botanical Garden,"Gate 1: Sector 37, Gate 3: Botanical Garden",Coach 5 for Magenta,Platform 2: Blue
+Dwarka Sector 21,"Gate 1: Airport Express, Gate 2: Parking",Coach 6 nearest Airport,Platform 1: Blue
+Aerocity,"Gate 1: Hospitality District, Gate 2: NH-8",Coach 2 for airport,Platform 1: Orange
+Chandni Chowk,"Gate 5: Old Delhi Railway Station, Gate 6: Town Hall",Coach 3 shortest walk,Platform 1: Yellow
+INA,"Gate 1: Dilli Haat, Gate 3: Aurobindo",Coach 3 for Pink Line,Platform 2: Yellow
+Lajpat Nagar,"Gate 1: Central Market, Gate 4: Ring Road",Coach 2 easy exit,Platform 3: Pink

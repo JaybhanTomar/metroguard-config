@@ -1,9 +1,85 @@
 {
-  "version": 1,
-  "stations": {
-    "Rajiv Chowk": {
-      "gates": ["Gate 3: D Block", "Gate 7: Inner Circle"],
-      "coachTip": "Coach 3 is nearest to the exit"
+    "version": 3,
+    "stations": {
+        "Rajiv Chowk": {
+            "gates": [
+                "Gate 3: D Block",
+                " Gate 7: Inner Circle"
+            ],
+            "coachTip": "Coach 3 is nearest",
+            "platform": "Platform 1: Yellow"
+        },
+        "Hauz Khas": {
+            "gates": [
+                "Gate 1: IIT Delhi",
+                " Gate 3: Aurobindo"
+            ],
+            "coachTip": "Coach 1 nearest to interchange",
+            "platform": "Platform 2: Pink"
+        },
+        "Kashmere Gate": {
+            "gates": [
+                "Gate 5: ISBT",
+                " Gate 7: Mori Gate"
+            ],
+            "coachTip": "Coach 4 for Yellow/Red",
+            "platform": "Platform 3: Red"
+        },
+        "Anand Vihar": {
+            "gates": [
+                "Gate 1: ISBT",
+                " Gate 3: Railway Station"
+            ],
+            "coachTip": "Coach 2 nearest",
+            "platform": "Platform 1: Blue"
+        },
+        "Botanical Garden": {
+            "gates": [
+                "Gate 1: Sector 37",
+                " Gate 3: Botanical Garden"
+            ],
+            "coachTip": "Coach 5 for Magenta",
+            "platform": "Platform 2: Blue"
+        },
+        "Dwarka Sector 21": {
+            "gates": [
+                "Gate 1: Airport Express",
+                " Gate 2: Parking"
+            ],
+            "coachTip": "Coach 6 nearest Airport",
+            "platform": "Platform 1: Blue"
+        },
+        "Aerocity": {
+            "gates": [
+                "Gate 1: Hospitality District",
+                " Gate 2: NH-8"
+            ],
+            "coachTip": "Coach 2 for airport",
+            "platform": "Platform 1: Orange"
+        },
+        "Chandni Chowk": {
+            "gates": [
+                "Gate 5: Old Delhi Railway Station",
+                " Gate 6: Town Hall"
+            ],
+            "coachTip": "Coach 3 shortest walk",
+            "platform": "Platform 1: Yellow"
+        },
+        "INA": {
+            "gates": [
+                "Gate 1: Dilli Haat",
+                " Gate 3: Aurobindo"
+            ],
+            "coachTip": "Coach 3 for Pink Line",
+            "platform": "Platform 2: Yellow"
+        },
+        "Lajpat Nagar": {
+            "gates": [
+                "Gate 1: Central Market",
+                " Gate 4: Ring Road"
+            ],
+            "coachTip": "Coach 2 easy exit",
+            "platform": "Platform 3: Pink"
+        }
     }
-  }
 }
